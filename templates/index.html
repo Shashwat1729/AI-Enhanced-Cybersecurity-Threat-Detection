@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI-Enhanced Cybersecurity Threat Detection</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI-Enhanced Cybersecurity Threat Detection</h1>
+        <form action="/analyze_network" method="POST">
+            <button type="submit">Analyze Network Traffic</button>
+        </form>
+        <form action="/analyze_logs" method="POST">
+            <button type="submit">Analyze System Logs</button>
+        </form>
+        {% if anomalies %}
+        <div class="result">
+            <h2>Detected Anomalies in Network Traffic:</h2>
+            <div>{{ anomalies | safe }}</div>
+        </div>
+        {% endif %}
+        {% if threats %}
+        <div class="result">
+            <h2>Detected Threats in System Logs:</h2>
+            <div>{{ threats | safe }}</div>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
