@@ -1,7 +1,3 @@
-Here’s an enhanced version of the **README.md** for the **AI-Enhanced Cybersecurity Threat Detection** project. It provides detailed descriptions of the project, how to use it, the data and models involved, and an organized project structure.
-
----
-
 # **AI-Enhanced Cybersecurity Threat Detection**
 
 This project applies **machine learning** and **NLP** techniques to detect potential cybersecurity threats by analyzing **network traffic data** and **system logs**. It uses an **Isolation Forest algorithm** to detect anomalies in network traffic and a **Logistic Regression classifier** with **TF-IDF vectorization** to identify threats in system logs. The project is designed with a simple **Flask web interface** for easy interaction and visualization.
@@ -159,5 +155,3 @@ Contributions are welcome! If you’d like to improve the models, enhance functi
 This project is open-source and available under the **MIT License**. Feel free to use and modify it for your own purposes.
 
 ---
-
-This **AI-Enhanced Cybersecurity Threat Detection** project is a powerful tool to analyze network traffic and system logs for potential threats. By combining machine learning and NLP, it offers a practical solution for enhancing cybersecurity with AI-powered insights.
